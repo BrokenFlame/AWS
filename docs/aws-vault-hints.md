@@ -59,4 +59,10 @@ e.g
 aws-vault exec devAdministratorProfile -- aws s3 ls --region eu-west-1
 ```
 
+You can also just enter aws-vault session and use the command line as normal (type "exit" to close the aws-vault session):
+
+```sh
+aws-vault exec <profile>
+```
+
  
